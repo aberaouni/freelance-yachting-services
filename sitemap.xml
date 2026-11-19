@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://services.freelanceyachting.com/</loc></url>
+  <url><loc>https://services.freelanceyachting.com/cv-audit/</loc></url>
+  <url><loc>https://services.freelanceyachting.com/linkedin-profile/</loc></url>
+  <url><loc>https://services.freelanceyachting.com/the-route/</loc></url>
+  <url><loc>https://services.freelanceyachting.com/the-broker-room/</loc></url>
+  <url><loc>https://services.freelanceyachting.com/crewcheck/</loc></url>
+  <url><loc>https://services.freelanceyachting.com/the-crew-intelligence/</loc></url>
   <url><loc>https://services.freelanceyachting.com/legal-notice.html</loc></url>
   <url><loc>https://services.freelanceyachting.com/terms-of-sale.html</loc></url>
   <url><loc>https://services.freelanceyachting.com/privacy.html</loc></url>
