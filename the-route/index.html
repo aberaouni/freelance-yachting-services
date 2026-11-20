@@ -36,7 +36,7 @@ a{color:inherit}
 .sig{display:inline-flex;align-items:center;gap:10px;padding:15px 22px;background:var(--signal);color:#fff!important;text-decoration:none;
   font:600 16px/1 var(--sans);border-radius:2px;box-shadow:0 14px 26px -16px rgba(10,70,255,.8)}
 .sig:hover{background:#0434c4}
-.sig--sm{padding:10px 14px;font-size:14px}
+.sig--sm{padding:10px 14px;font-size:14px;white-space:nowrap}
 .crumb{margin:22px 0 0;font-size:13.5px;color:var(--slate)}
 .crumb a{text-decoration:none}
 .crumb a:hover{text-decoration:underline}
@@ -101,6 +101,7 @@ h2{margin:64px 0 0;font:700 11px/1.3 var(--wide);letter-spacing:.2em;text-transf
   .more{grid-template-columns:repeat(2,minmax(0,1fr))}
   .top nav .hide{display:none}
 }
+@media (max-width:420px){.brand{font-size:17px;gap:8px}.brand img{height:26px}}
 @media (max-width:620px){
   body{font-size:16px}
   .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -149,7 +150,8 @@ h2{margin:64px 0 0;font:700 11px/1.3 var(--wide);letter-spacing:.2em;text-transf
 </main>
 <footer class="foot"><div class="wrap">
   <span>© 2026 Freelance Yachting · <a href="mailto:contact@freelanceyachting.com">contact@freelanceyachting.com</a> · Secure checkout by Stripe</span>
-  <span><a href="../#chart-room">The Chart Room · free tools for yacht crew</a> · <a href="../legal-notice.html">Legal notice</a> · <a href="../terms-of-sale.html">Terms of sale</a> · <a href="../privacy.html">Privacy</a></span>
+  <span>Free tools: <a href="../yacht-crew-agencies/">Agency directory</a> · <a href="../free-guides/">Free guides</a> · <a href="../free-yacht-cv-builder/">CV builder</a></span>
+  <span><a href="../legal-notice.html">Legal notice</a> · <a href="../terms-of-sale.html">Terms of sale</a> · <a href="../privacy.html">Privacy</a></span>
 </div></footer>
 </body>
 </html>
